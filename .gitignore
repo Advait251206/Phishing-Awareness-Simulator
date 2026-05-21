@@ -1,0 +1,25 @@
+# Compiled artifacts and dependencies
+/node_modules
+/vendor
+/public/storage
+/public/build
+/public/hot
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+/storage/*.key
+
+# IDE or Editor directories
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

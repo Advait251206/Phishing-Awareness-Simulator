@@ -1,101 +1,119 @@
-# Phishing Awareness Simulation
+# 🌐 Phishing Awareness Simulation Platform
 
-Hi, I’m Advait Kawale, and this is my project **Phishing Awareness Simulation**.  
-I built this system to create a safe environment where people can experience phishing techniques firsthand and learn how to recognize them. Instead of just reading about phishing, this simulator allows trainers and learners to actually see how these attacks unfold—without any real danger.
-
----
-
-## 🚀 Introduction
-Phishing is one of the most common cyberattacks today. Unlike technical exploits, phishing targets **human psychology**. The goal of my project was to make phishing awareness more practical and effective by simulating real-world scenarios.
-
-The simulator:
-- Generates phishing-style emails  
-- Hosts fake login pages that record interactions  
-- Redirects users safely to the real site  
-- Provides a **dashboard** where trainers can track campaigns and results  
-
-This way, people can learn through experience while staying completely safe.
+## 🎓 Academic Project Overview
+* **Institution:** Department of Computer Science and Engineering, Ramdeobaba University, Nagpur
+* **Author:** Advait Kawale
+* **Academic Level:** 2nd Year CSE
+* **Purpose:** Controlled Educational Demonstration & Security Awareness Training
 
 ---
 
-## 🎯 Objectives
-When I started this project, I set a few key goals:
-1. Build a working phishing simulation platform that feels realistic but is harmless.  
-2. Provide trainers with campaign management tools (create, edit, monitor phishing tests).  
-3. Log user credentials in a controlled way to demonstrate risks, then safely redirect them.  
-4. Give trainers a dashboard to review results and use them as awareness material.  
+## 🎯 Educational Mission & Focus
 
-In short: turn phishing from an invisible threat into a **hands-on learning experience**.
+This project is a **controlled security awareness simulation utility** built as an academic study on the human factors of cybersecurity. Security awareness simulations are critical in educating non-technical users about **social engineering tactics**, transforming abstract theoretical threats into observable, hands-on learning experiences.
+
+The primary objective is to demonstrate **human vulnerability points** in cybersecurity and train users to look for key visual and technical indicators of credential-harvesting attacks (e.g., domain mismatches, lack of secure indicators, and psychological urgency triggers).
+
+> [!WARNING]
+> **LEGAL AND ETHICAL DISCLAIMER**
+> This software is strictly intended for **authorized educational simulations, local testing, and academic grading purposes**. 
+> * It must **never** be deployed in uncontrolled settings or used against real users without their explicit, prior written consent.
+> * The author and developers assume **no liability** for misuse, unauthorized installations, or damage resulting from the deployment of this tool outside of authorized academic and corporate training boundaries.
+
+---
+
+## 💡 How Phishing Awareness Simulators Work
+
+A standard phishing simulation mirrors real-world social engineering attack vectors to assess user vulnerability. In a controlled training scenario, the lifecycle follows a structured loop:
+
+```mermaid
+graph TD
+    classDef default fill:#1E1E2E,stroke:#89B4FA,stroke-width:2px,color:#CDD6F4;
+    classDef target fill:#313244,stroke:#F38BA8,stroke-width:1px,color:#F38BA8;
+    classDef process fill:#1E1E2E,stroke:#A6E3A1,stroke-width:2px,color:#A6E3A1;
+
+    A[1. Trainer configures Campaign] --> B(2. Safe Simulation Email Sent)
+    B --> C{3. Recipient clicks Link?}
+    C -- No --> D[Recipient is Safe / Training Passed]
+    C -- Yes --> E(4. Redirected to Simulated Login Page)
+    E --> F{5. Enters mock data?}
+    F -- No --> G[Safe Redirect / Awareness Alerted]
+    F -- Yes --> H(6. Simulated Log Captured & User Safely Warned)
+
+    class C,F target;
+    class A,B,E,H process;
+```
+
+1. **Campaign Configuration:** An administrator sets up a simulated campaign containing custom mock emails and safe templates.
+2. **Delivery Stage:** The simulated message is routed to designated test inboxes (using sandboxed environments like Mailtrap).
+3. **Observation:** If the test subject opens the link, they land on a localized mock landing page.
+4. **Redirection & Remediation:** The platform safely catches the interaction, alerts the user that this was a test, and redirects them to the official resource alongside micro-learning modules explaining what indicators they missed.
 
 ---
 
 ## 🛠️ Technology Stack
-- **Laravel (PHP):** Framework for routing, authentication, and database operations  
-- **Blade Templates & Tailwind CSS:** For realistic phishing pages and styling  
-- **MySQL & SQLite:** Databases for storing campaigns and logs  
-- **Laravel Mailer (Mailtrap/Gmail):** To send phishing-style emails in a safe, controlled setup  
-- **Composer, Artisan CLI & VS Code:** Development tools for efficiency  
+
+* **Core Framework:** [Laravel 10.x](https://laravel.com) (Expressive PHP MVC engine for secure routing and session handling)
+* **Frontend styling:** [Tailwind CSS](https://tailwindcss.com) & Blade Templates (Creating visual representations of common interfaces)
+* **Database engine:** MySQL / SQLite (Campaign metric storage, event logs, and training telemetry)
+* **Testing Sandbox:** Laravel Mailer integrated with Mailtrap or local SMTP servers
 
 ---
 
-## 🏗️ System Features
-- **Campaign Management (CRUD):** Create and manage phishing campaigns  
-- **Phishing Simulation Login Pages:** Fake but safe login screens  
-- **Credential Logging:** Capture (email, password, IP, browser) for demo purposes  
-- **Dashboard:** View results and analyze attempts  
-- **Email Simulation:** Send phishing-style emails via Mailtrap or Gmail  
+## 🏗️ Core System Structure
+
+* **Campaign Management:** Full CRUD interface allowing administrators to create, schedule, and edit simulation runs.
+* **Telemetry Dashboard:** Aggregates overall campaign results, tracking click-through rates and completion times for academic data collection.
+* **Redirection Pipeline:** Safe and automatic route forwarding that intercepts active tests and redirects users to security awareness advice pages.
 
 ---
 
-## 🔄 Workflow
-1. Trainer creates a phishing campaign from the dashboard  
-2. A phishing email is sent to the target account  
-3. The recipient clicks the link → sees a fake login page  
-4. If they enter credentials, data gets logged  
-5. User is redirected to the **real site**  
-6. Trainer reviews results in the dashboard  
+## 🚀 Local Installation & Deployment
 
----
+To run this project locally in a sandboxed, loopback testing environment:
 
-## ✅ Results
-- Fully functional simulator built in Laravel  
-- Campaigns could be created and tested  
-- User interactions tracked and reviewed  
-- Demonstrated **how easy it is to give away sensitive info unknowingly**  
+### Prerequisites:
+* PHP $\ge 8.1$
+* Composer
+* Node.js & NPM
+* Local database server (e.g., MySQL, SQLite)
 
----
+### Installation Steps:
 
-## 📌 Applications
-- Corporate security training programs  
-- University cybersecurity courses  
-- Public awareness workshops  
+1. **Navigate to the Project Root:**
+   ```bash
+   cd PhishingSim
+   ```
 
----
+2. **Install Composer Dependencies:**
+   ```bash
+   composer install
+   ```
 
-## ⚠️ Limitations & Future Work
-- Currently limited to local hosting  
-- Needs cloud deployment for scalability  
-- More phishing templates and analytics would improve realism  
-- Automation for dynamic phishing campaigns  
+3. **Install and Build Frontend Assets:**
+   ```bash
+   npm install
+   npm run build
+   ```
 
----
+4. **Environment Configuration:**
+   Copy the example environment configuration file:
+   ```bash
+   cp .env.example .env
+   ```
+   *Generate your application encryption key:*
+   ```bash
+   php artisan key:generate
+   ```
+   *Edit the `.env` file to configure your local database connection and local sandboxed SMTP settings (e.g., Mailtrap).*
 
-## 🔒 Ethical Considerations
-This project is **strictly for awareness and education**.  
-It must **never** be used against real users without consent. Running phishing simulations in uncontrolled environments is **illegal and unethical**.  
+5. **Run Migrations & Seed Database:**
+   ```bash
+   php artisan migrate
+   ```
 
-The whole purpose is to **protect people, not exploit them**.
-
----
-
-## 🏁 Conclusion
-Building this project was a rewarding experience. It reinforced the importance of human awareness in cybersecurity. Firewalls and detection systems can’t stop every attack—but training people to recognize phishing attempts can make a big difference.  
-
-By simulating phishing in a safe way, I was able to turn theory into practice, making awareness more impactful.  
-
----
-
-## 👨‍💻 Author
-**Advait Kawale**  
-2nd Year, Department of Computer Science and Engineering  
-Ramdeobaba University, Nagpur
+6. **Start Local Development Server:**
+   ```bash
+   php artisan serve
+   ```
+   *Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your web browser to access the administrator dashboard.*
