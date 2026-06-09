@@ -1,25 +1,19 @@
-EDUCATIONAL AND ACADEMIC USE ONLY DISCLAIMER
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                       LICENSE - PHISHING AWARENESS SIMULATOR                                        ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-This software ("Phishing Awareness Simulator") is provided strictly for educational, academic, and authorized awareness training purposes. 
-
-By obtaining a copy of this software, you agree to the following terms:
-1. You will NOT use this software for malicious activities, unauthorized phishing campaigns, credential harvesting, or any form of cyberattack against third-party systems, organizations, or individuals.
-2. You will NOT use this software in any manner that violates the Computer Fraud and Abuse Act (CFAA), the Information Technology Act, 2000 (India), or any other applicable local, state, national, or international cyber laws.
-3. You will only use this software in controlled environments and only target individuals or systems where you have received explicit, prior written consent.
-4. The author(s) and copyright holder(s) assume absolutely no liability and are not responsible for any misuse, damage, or legal consequences caused by the use of this software. You use this software entirely at your own risk.
-
---------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                         MIT LICENSE - EDUCATIONAL PURPOSE ONLY                                       │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 MIT License
 
 Copyright (c) 2026 Advait Kawale
+Department of Computer Science and Engineering, Ramdeobaba University, Nagpur
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+in the Software for EDUCATIONAL PURPOSES ONLY, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -31,3 +25,90 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                             ADDITIONAL TERMS & CONDITIONS                                            │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+1. EDUCATIONAL PURPOSE ONLY
+   This software is a controlled academic simulation tool designed exclusively
+   for cybersecurity awareness training, academic research, and demonstration
+   of social engineering vulnerabilities. It is to be used only in supervised,
+   sandboxed environments with explicit authorization from all relevant parties.
+
+2. PROHIBITED USES
+   The following uses are STRICTLY PROHIBITED:
+   ❌ Deploying against any real user or system without their explicit written consent
+   ❌ Using to harvest real credentials, passwords, or personal information
+   ❌ Using outside of controlled, authorized, and sandboxed environments
+   ❌ Distributing as part of any malicious phishing campaign or attack toolkit
+   ❌ Using for social engineering attacks against any organization or individual
+   ❌ Using in any manner that violates applicable laws or institutional policies
+
+3. COMPLIANCE WITH LAWS
+   Users must comply with all applicable local, state, national, and international
+   laws. This includes but is not limited to:
+   - India:  Information Technology Act 2000 (Sections 43, 66, 66C, 66D)
+   - USA:    Computer Fraud and Abuse Act (CFAA)
+   - UK:     Computer Misuse Act 1990
+   - EU:     General Data Protection Regulation (GDPR)
+
+4. LIABILITY
+   THE AUTHOR(S) SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+   The author bears no responsibility whatsoever for any misuse of this tool
+   outside of its intended academic and educational scope.
+
+5. INDEMNIFICATION
+   You agree to indemnify, defend, and hold harmless the author(s) from and
+   against any and all claims, liabilities, damages, losses, costs, expenses,
+   or fees (including reasonable attorneys' fees) arising from your use of
+   the Software or your violation of any of these terms and conditions.
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                               PENALTIES FOR VIOLATION                                                │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Under Indian IT Act 2000:
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Section 66C  (Identity Theft)              → 3 years imprisonment + ₹5 lakh fine                                   │
+│ Section 66D  (Cheating by impersonation)   → 3 years imprisonment + ₹1 lakh fine                                   │
+│ Section 43   (Unauthorized access)         → Compensation up to ₹1 crore                                           │
+│ Section 66   (Computer-related offenses)   → 3 years imprisonment or ₹5 lakh fine                                  │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Under US Federal Law (CFAA):
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Unauthorized computer access               → Up to 10 years federal prison + $250,000 fine                         │
+│ Phishing / credential fraud                → Up to 20 years under wire fraud statutes (18 U.S.C. § 1343)           │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Under UK Law (Computer Misuse Act 1990):
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Unauthorized access                        → Up to 5 years imprisonment                                             │
+│ Unauthorized access with intent            → Up to 10 years imprisonment                                            │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                    ACKNOWLEDGMENT                                                    │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+By downloading, installing, or using this software in any capacity, you
+acknowledge that you have read this license in full, understand its terms,
+and agree to be irrevocably bound by them. You further confirm that you will
+use this software solely for legitimate educational and awareness training
+purposes in controlled environments with all required authorizations in place.
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                       CONTACT                                                        │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+For reporting violations, obtaining permission for legitimate institutional use,
+or academic collaboration inquiries:
+- GitHub:       https://github.com/Advait251206
+- Institution:  Ramdeobaba University, Nagpur
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║              USE THIS SOFTWARE RESPONSIBLY. MISUSE IS A CRIMINAL OFFENSE UNDER APPLICABLE CYBER LAWS.              ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
